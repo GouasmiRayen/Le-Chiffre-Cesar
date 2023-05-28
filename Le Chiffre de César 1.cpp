@@ -39,7 +39,7 @@ void enqueue(file* queue, char message) {
     }
 }
 
-// Supprimer un �l�ment de la file
+// Supprimer un element de la file
 char dequeue(file* queue) {
     if (isEmpty(queue)) {
         printf("Erreur : la file est vide.\n");
